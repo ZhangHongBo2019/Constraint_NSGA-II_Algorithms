@@ -1,0 +1,13 @@
+figure
+bar3(trace2');
+xbins=0.5:0.1:1;
+ybins=0:0.01:0.1;
+zbins=0:0.5:1;
+set(gca,'xticklabel',xbins);
+set(gca,'yticklabel',ybins);
+set(gca,'zticklabel',zbins);
+zlim([0,1]);
+xlabel('交叉概率');
+ylabel('变异概率');
+zlabel('Spcing值');
+title('交叉概率和变异概率对Spcing值的影响');
